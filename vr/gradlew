@@ -1,0 +1,6 @@
+#!/usr/bin/env sh
+APP_NAME="vr"
+APP_BASE_NAME=`basename "$0"`
+SCRIPT_DIR=`cd "$(dirname "$0")" && pwd`
+GRADLE_JAR="$SCRIPT_DIR/gradle/wrapper/gradle-wrapper.jar"
+GRADLE_PROPERTIES="$SCRIPT_DIR/gradle.properties"
